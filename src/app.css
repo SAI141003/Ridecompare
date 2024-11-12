@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ns-root {
+    --background-color: white;
+    --text-color: black;
+}
+
+TextField {
+    color: black;
+    placeholder-color: #666666;
+}
+
+ActionBar {
+    background-color: white;
+    color: black;
+}
